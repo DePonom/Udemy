@@ -54,3 +54,9 @@ console.log(++incr); //выдаст 11, т.к. при префиксной фо�
 
 Приоритет операторов - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table
 
+
+
+GitHub
+
+git commit -a -m'second commit' - создание коммита
+git push -u origin main - отправка коммита на GitHub
