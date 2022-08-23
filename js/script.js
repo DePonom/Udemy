@@ -1,13 +1,20 @@
 "use strict";
-let category = 'qqq';
+const numberOfFilms = +prompt('Сколько фильмов вы посмотрели?','');
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    ganres: [],
+    privat: false
+};
 
-document.write(`httt://${category}/5`);
+const a = prompt('Один из последних просмотренных фильмов?',''),
+      b = +prompt('На сколько оцените его?',''),
+      c = prompt('Один из последних просмотренных фильмов?',''),
+      d = +prompt('На сколько оцените его?','');
 
-console.log(4 +'-6');
-
-const isChecked = true,
-    isClose =false;
-
-console.log(isChecked && !isClose);
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+console.log(personalMovieDB);
 
 
